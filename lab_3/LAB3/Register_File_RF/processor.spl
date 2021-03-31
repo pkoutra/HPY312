@@ -1,0 +1,5 @@
+[Inputs]
+clk
+reset_processor
+[Outputs]
+[BiDir]

@@ -1,0 +1,32 @@
+Command line:
+   proc3_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50204
+
+Sun Apr 22 14:55:37 2018
+
+
+ Elaboration Time: 0.1875 sec
+
+ Current Memory Usage: 1095.94 Meg
+
+ Total Signals          : 537
+ Total Nets             : 69115
+ Total Signal Drivers   : 165
+ Total Blocks           : 110
+ Total Primitive Blocks : 71
+ Total Processes        : 108
+ Total Traceable Variables  : 50
+ Total Scalar Nets and Variables : 70169
+Total Line Count : 1111
+In process ALU_operation.vhd:44 
+ Target Size 32 and source size 64 for array dimension 0 does not match. 
+
+
+ Total Simulation Time: 0.25 sec
+
+ Current Memory Usage: 1095.94 Meg
+
+Sun Apr 22 14:56:05 2018
+

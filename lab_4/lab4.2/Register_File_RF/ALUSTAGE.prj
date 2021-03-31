@@ -1,0 +1,5 @@
+vhdl work "ALU_Outputs.vhd"
+vhdl work "ALU_operation.vhd"
+vhdl work "MUX_pre_ALU.vhd"
+vhdl work "ALU.vhd"
+vhdl work "ALUSTAGE.vhd"

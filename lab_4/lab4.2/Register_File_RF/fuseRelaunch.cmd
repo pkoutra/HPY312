@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/user00000/Desktop/lab4.2/Register_File_RF/proc4_isim_beh.exe" -prj "C:/Users/user00000/Desktop/lab4.2/Register_File_RF/proc4_beh.prj" "work.proc4" 

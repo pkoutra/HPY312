@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Register_File_RF" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALU - Behavioral C:|Users|Lenovo|Desktop|zou|lab1|Register_File_RF|ALU.vhd</ClosedNode>
+         <ClosedNode>/ALUSTAGE - Behavioral C:|Users|Lenovo|Desktop|LAB2|Register_File_RF|ALUSTAGE.vhd</ClosedNode>
+         <ClosedNode>/ALUSTAGE - Behavioral C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|ALUSTAGE.vhd</ClosedNode>
+         <ClosedNode>/ALUSTAGE - Behavioral C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|ALUSTAGE.vhd/ALU_mod - ALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUSTAGE - Behavioral C:|Users|user00000|Desktop|LAB2|Register_File_RF|ALUSTAGE.vhd</ClosedNode>
+         <ClosedNode>/ALUSTAGE - Behavioral F:|LAB2|Register_File_RF|ALUSTAGE.vhd</ClosedNode>
+         <ClosedNode>/ALUSTAGE - Behavioral F:|LAB2|Register_File_RF|ALUSTAGE.vhd/ALU_mod - ALU - Behavioral</ClosedNode>
+         <ClosedNode>/DECSTAGE - Behavioral C:|Users|Lenovo|Desktop|LAB2|Register_File_RF|DECODE.vhd</ClosedNode>
+         <ClosedNode>/DECSTAGE - Behavioral C:|Users|Lenovo|Desktop|LAB2|Register_File_RF|DECODE.vhd/RF - Register_File_RF - Behavioral</ClosedNode>
+         <ClosedNode>/DECSTAGE - Behavioral C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|DECODE.vhd</ClosedNode>
+         <ClosedNode>/DECSTAGE - Behavioral C:|Users|user00000|Desktop|LAB2|Register_File_RF|DECODE.vhd</ClosedNode>
+         <ClosedNode>/DECSTAGE - Behavioral C:|Users|user00000|Desktop|LAB2|Register_File_RF|DECODE.vhd/RF - Register_File_RF - Behavioral</ClosedNode>
+         <ClosedNode>/DECSTAGE - Behavioral F:|LAB2|Register_File_RF|DECODE.vhd/RF - Register_File_RF - Behavioral</ClosedNode>
+         <ClosedNode>/IFSTAGE - Behavioral C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|IFSTAGE.vhd</ClosedNode>
+         <ClosedNode>/IFSTAGE - Behavioral C:|Users|user00000|Desktop|LAB2|Register_File_RF|IFSTAGE.vhd</ClosedNode>
+         <ClosedNode>/IFSTAGE - Behavioral F:|LAB2|Register_File_RF|IFSTAGE.vhd</ClosedNode>
+         <ClosedNode>/MEMSTAGE - Behavioral C:|Users|Lenovo|Desktop|LAB2|Register_File_RF|MEMSTAGE.vhd</ClosedNode>
+         <ClosedNode>/MEMSTAGE - Behavioral F:|LAB2|Register_File_RF|MEMSTAGE.vhd</ClosedNode>
+         <ClosedNode>/Register_File_RF - Behavioral C:|Users|Lenovo|Desktop|LAB2|Register_File_RF|Register_File_RF.vhd</ClosedNode>
+         <ClosedNode>/Register_File_RF - Behavioral C:|Users|Lenovo|Desktop|zou|lab1|Register_File_RF|Register_File_RF.vhd</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|processor.vhd/ALUSTAGE_datapath - ALUSTAGE - Behavioral/ALU_mod - ALU - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|processor.vhd/ALU_proc - ALUSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|processor.vhd/ALU_proc - ALUSTAGE - Behavioral/ALU_mod - ALU - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|processor.vhd/DECSTAGE_datapath - DECSTAGE - Behavioral/RF - Register_File_RF - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|processor.vhd/MEM_proc - MEMSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|processor.vhd/dec_proc - DECSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|processor.vhd/dec_proc - DECSTAGE - Behavioral/RF - Register_File_RF - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|processor.vhd/if_stage_proc - IFSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|Lenovo|Desktop|lab5|Register_File_RF|processor.vhd/ALUSTAGE_datapath - ALUSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|Lenovo|Desktop|lab5|Register_File_RF|processor.vhd/DECSTAGE_datapath - DECSTAGE - Behavioral/RF - Register_File_RF - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|Lenovo|Desktop|lab5|Register_File_RF|processor.vhd/IFSTAGE_datapath - IFSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|Lenovo|Desktop|lab5|Register_File_RF|processor.vhd/MEMSTAGE_datapath - MEMSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|user00000|Desktop|lab5org -fwd - stall|processor.vhd/ALUSTAGE_datapath - ALUSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|user00000|Desktop|lab5org -fwd - stall|processor.vhd/DECSTAGE_datapath - DECSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|user00000|Desktop|lab5org -fwd - stall|processor.vhd/IFSTAGE_datapath - IFSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|user00000|Desktop|lab5org -fwd - stall|processor.vhd/MEMSTAGE_datapath - MEMSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|user00000|Desktop|lab5org -fwd|processor.vhd/ALUSTAGE_datapath - ALUSTAGE - Behavioral/ALU_mod - ALU - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|user00000|Desktop|lab5org -fwd|processor.vhd/DECSTAGE_datapath - DECSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|user00000|Desktop|lab5org -fwd|processor.vhd/IFSTAGE_datapath - IFSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|user00000|Desktop|lab5org -fwd|processor.vhd/MEMSTAGE_datapath - MEMSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|user00000|Desktop|lab5org|processor.vhd/ALUSTAGE_datapath - ALUSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|user00000|Desktop|lab5org|processor.vhd/DECSTAGE_datapath - DECSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|user00000|Desktop|lab5org|processor.vhd/DECSTAGE_datapath - DECSTAGE - Behavioral/RF - Register_File_RF - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|user00000|Desktop|lab5org|processor.vhd/IFSTAGE_datapath - IFSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/processor - Behavioral C:|Users|user00000|Desktop|lab5org|processor.vhd/MEMSTAGE_datapath - MEMSTAGE - Behavioral</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>stall - STALL_MODULE - Behavioral (C:/Users/user00000/Desktop/lab5org -fwd - stall/STALL_MODULE.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002ea000000020000000000000000000000000200000064ffffffff000000810000000300000002000002ea0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>stall - STALL_MODULE - Behavioral (C:/Users/user00000/Desktop/lab5org -fwd - stall/STALL_MODULE.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000da000000010000000100000000000000000000000064ffffffff000000810000000000000001000000da0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001b10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>C:\Users\user00000\Desktop\lab5org -fwd - stall\ALU.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Check Syntax</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000da000000010000000100000000000000000000000064ffffffff000000810000000000000001000000da0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Check Syntax</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALUSTAGE - Behavioral C:|Users|Lenovo|Desktop|LAB2|Register_File_RF|ALUSTAGE.vhd</ClosedNode>
+         <ClosedNode>/ALUSTAGE - Behavioral C:|Users|user00000|Desktop|LAB2|Register_File_RF|ALUSTAGE.vhd</ClosedNode>
+         <ClosedNode>/DECSTAGE - Behavioral C:|Users|Lenovo|Desktop|LAB2|Register_File_RF|DECODE.vhd</ClosedNode>
+         <ClosedNode>/DECSTAGE - Behavioral C:|Users|user00000|Desktop|LAB2|Register_File_RF|DECODE.vhd</ClosedNode>
+         <ClosedNode>/MEMSTAGE - Behavioral C:|Users|Lenovo|Desktop|LAB2|Register_File_RF|MEMSTAGE.vhd</ClosedNode>
+         <ClosedNode>/MEMSTAGE - Behavioral C:|Users|user00000|Desktop|LAB2|Register_File_RF|MEMSTAGE.vhd</ClosedNode>
+         <ClosedNode>/MUX32_test - behavior C:|Users|Lenovo|Desktop|LAB2|Register_File_RF|MUX32_test.vhd</ClosedNode>
+         <ClosedNode>/MUX32_test - behavior C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|MUX32_test.vhd</ClosedNode>
+         <ClosedNode>/MUX32_test - behavior C:|Users|Lenovo|Desktop|lab1|Register_File_RF|MUX32_test.vhd</ClosedNode>
+         <ClosedNode>/MUX32_test - behavior C:|Users|Lenovo|Desktop|lab5|Register_File_RF|MUX32_test.vhd</ClosedNode>
+         <ClosedNode>/MUX32_test - behavior C:|Users|Lenovo|Desktop|zou|lab1|Register_File_RF|MUX32_test.vhd</ClosedNode>
+         <ClosedNode>/MUX32_test - behavior C:|Users|user00000|Desktop|LAB2|Register_File_RF|MUX32_test.vhd</ClosedNode>
+         <ClosedNode>/MUX32_test - behavior C:|Users|user00000|Desktop|lab5org -fwd - stall|MUX32_test.vhd</ClosedNode>
+         <ClosedNode>/MUX32_test - behavior C:|Users|user00000|Desktop|lab5org -fwd|MUX32_test.vhd</ClosedNode>
+         <ClosedNode>/MUX32_test - behavior C:|Users|user00000|Desktop|lab5org|MUX32_test.vhd</ClosedNode>
+         <ClosedNode>/MUX32_test - behavior C:|Users|user00000|Desktop|lab5|Register_File_RF|MUX32_test.vhd</ClosedNode>
+         <ClosedNode>/MUX32_test - behavior F:|LAB2|Register_File_RF|MUX32_test.vhd</ClosedNode>
+         <ClosedNode>/Test_ALU - behavior C:|Users|Lenovo|Desktop|LAB2|Register_File_RF|Test_ALU.vhd</ClosedNode>
+         <ClosedNode>/Test_ALU - behavior C:|Users|Lenovo|Desktop|lab5|Register_File_RF|Test_ALU.vhd</ClosedNode>
+         <ClosedNode>/Test_ALU - behavior C:|Users|user00000|Desktop|LAB2|Register_File_RF|Test_ALU.vhd</ClosedNode>
+         <ClosedNode>/Test_ALU - behavior C:|Users|user00000|Desktop|lab5org -fwd - stall|Test_ALU.vhd</ClosedNode>
+         <ClosedNode>/Test_ALU - behavior C:|Users|user00000|Desktop|lab5org -fwd|Test_ALU.vhd</ClosedNode>
+         <ClosedNode>/Test_ALU - behavior C:|Users|user00000|Desktop|lab5org|Test_ALU.vhd</ClosedNode>
+         <ClosedNode>/Test_ALU - behavior C:|Users|user00000|Desktop|lab5|Register_File_RF|Test_ALU.vhd</ClosedNode>
+         <ClosedNode>/Test_ALU - behavior F:|LAB2|Register_File_RF|Test_ALU.vhd</ClosedNode>
+         <ClosedNode>/Test_Rf - behavior C:|Users|Lenovo|Desktop|LAB2|Register_File_RF|Test_Rf.vhd</ClosedNode>
+         <ClosedNode>/Test_Rf - behavior C:|Users|Lenovo|Desktop|lab1|Register_File_RF|Test_Rf.vhd</ClosedNode>
+         <ClosedNode>/Test_Rf - behavior C:|Users|Lenovo|Desktop|lab5|Register_File_RF|Test_Rf.vhd</ClosedNode>
+         <ClosedNode>/Test_Rf - behavior C:|Users|Lenovo|Desktop|zou|lab1|Register_File_RF|Test_Rf.vhd</ClosedNode>
+         <ClosedNode>/Test_Rf - behavior C:|Users|user00000|Desktop|LAB2|Register_File_RF|Test_Rf.vhd</ClosedNode>
+         <ClosedNode>/Test_Rf - behavior C:|Users|user00000|Desktop|lab5org -fwd - stall|Test_Rf.vhd</ClosedNode>
+         <ClosedNode>/Test_Rf - behavior C:|Users|user00000|Desktop|lab5org -fwd|Test_Rf.vhd</ClosedNode>
+         <ClosedNode>/Test_Rf - behavior C:|Users|user00000|Desktop|lab5org|Test_Rf.vhd</ClosedNode>
+         <ClosedNode>/Test_Rf - behavior C:|Users|user00000|Desktop|lab5|Register_File_RF|Test_Rf.vhd</ClosedNode>
+         <ClosedNode>/Test_Rf - behavior F:|LAB2|Register_File_RF|Test_Rf.vhd</ClosedNode>
+         <ClosedNode>/Test_registers - behavior C:|Users|Lenovo|Desktop|LAB2|Register_File_RF|Test_registers.vhd</ClosedNode>
+         <ClosedNode>/Test_registers - behavior C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|Test_registers.vhd</ClosedNode>
+         <ClosedNode>/Test_registers - behavior C:|Users|Lenovo|Desktop|lab1|Register_File_RF|Test_registers.vhd</ClosedNode>
+         <ClosedNode>/Test_registers - behavior C:|Users|Lenovo|Desktop|lab5|Register_File_RF|Test_registers.vhd</ClosedNode>
+         <ClosedNode>/Test_registers - behavior C:|Users|Lenovo|Desktop|zou|lab1|Register_File_RF|Test_registers.vhd</ClosedNode>
+         <ClosedNode>/Test_registers - behavior C:|Users|user00000|Desktop|LAB2|Register_File_RF|Test_registers.vhd</ClosedNode>
+         <ClosedNode>/Test_registers - behavior C:|Users|user00000|Desktop|lab5org -fwd - stall|Test_registers.vhd</ClosedNode>
+         <ClosedNode>/Test_registers - behavior F:|LAB2|Register_File_RF|Test_registers.vhd</ClosedNode>
+         <ClosedNode>/lab2TestDECSTAGE - behavior C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|lab2TestDECSTAGE.vhd</ClosedNode>
+         <ClosedNode>/lab2TestDECSTAGE - behavior C:|Users|Lenovo|Desktop|lab5|Register_File_RF|lab2TestDECSTAGE.vhd</ClosedNode>
+         <ClosedNode>/lab2TestDECSTAGE - behavior C:|Users|user00000|Desktop|LAB2|Register_File_RF|lab2TestDECSTAGE.vhd</ClosedNode>
+         <ClosedNode>/lab2TestDECSTAGE - behavior C:|Users|user00000|Desktop|LAB2|Register_File_RF|lab2TestDECSTAGE.vhd/uut - DECSTAGE - Behavioral/RF - Register_File_RF - Behavioral</ClosedNode>
+         <ClosedNode>/lab2TestDECSTAGE - behavior C:|Users|user00000|Desktop|lab5org -fwd - stall|lab2TestDECSTAGE.vhd</ClosedNode>
+         <ClosedNode>/lab2TestDECSTAGE - behavior C:|Users|user00000|Desktop|lab5org -fwd|lab2TestDECSTAGE.vhd</ClosedNode>
+         <ClosedNode>/lab2TestDECSTAGE - behavior C:|Users|user00000|Desktop|lab5org|lab2TestDECSTAGE.vhd</ClosedNode>
+         <ClosedNode>/lab2TestDECSTAGE - behavior C:|Users|user00000|Desktop|lab5|Register_File_RF|lab2TestDECSTAGE.vhd</ClosedNode>
+         <ClosedNode>/lab2TestDECSTAGE - behavior F:|LAB2|Register_File_RF|lab2TestDECSTAGE.vhd</ClosedNode>
+         <ClosedNode>/lab5 - behavior C:|Users|user00000|Desktop|lab5org -fwd|lab5.vhd/uut - processor - Behavioral/ALUSTAGE_datapath - ALUSTAGE - Behavioral/ALU_mod - ALU - Behavioral</ClosedNode>
+         <ClosedNode>/lab5 - behavior C:|Users|user00000|Desktop|lab5org -fwd|lab5.vhd/uut - processor - Behavioral/DECSTAGE_datapath - DECSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/lab5 - behavior C:|Users|user00000|Desktop|lab5org -fwd|lab5.vhd/uut - processor - Behavioral/IFSTAGE_datapath - IFSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/lab5 - behavior C:|Users|user00000|Desktop|lab5org -fwd|lab5.vhd/uut - processor - Behavioral/MEMSTAGE_datapath - MEMSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/lab5 - behavior C:|Users|user00000|Desktop|lab5org|lab5.vhd</ClosedNode>
+         <ClosedNode>/testDECSTAGE - behavior C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|testDECSTAGE.vhd</ClosedNode>
+         <ClosedNode>/testDECSTAGE - behavior C:|Users|Lenovo|Desktop|lab5|Register_File_RF|testDECSTAGE.vhd</ClosedNode>
+         <ClosedNode>/testDECSTAGE - behavior C:|Users|user00000|Desktop|LAB2|Register_File_RF|testDECSTAGE.vhd</ClosedNode>
+         <ClosedNode>/testDECSTAGE - behavior F:|LAB2|Register_File_RF|testDECSTAGE.vhd</ClosedNode>
+         <ClosedNode>/testDecoder - behavior C:|Users|Lenovo|Desktop|LAB2|Register_File_RF|testDecoder.vhd</ClosedNode>
+         <ClosedNode>/testDecoder - behavior C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|testDecoder.vhd</ClosedNode>
+         <ClosedNode>/testDecoder - behavior C:|Users|Lenovo|Desktop|lab1|Register_File_RF|testDecoder.vhd</ClosedNode>
+         <ClosedNode>/testDecoder - behavior C:|Users|Lenovo|Desktop|lab5|Register_File_RF|testDecoder.vhd</ClosedNode>
+         <ClosedNode>/testDecoder - behavior C:|Users|Lenovo|Desktop|zou|lab1|Register_File_RF|testDecoder.vhd</ClosedNode>
+         <ClosedNode>/testDecoder - behavior C:|Users|user00000|Desktop|LAB2|Register_File_RF|testDecoder.vhd</ClosedNode>
+         <ClosedNode>/testDecoder - behavior F:|LAB2|Register_File_RF|testDecoder.vhd</ClosedNode>
+         <ClosedNode>/testFSM - behavior C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|testFSM.vhd</ClosedNode>
+         <ClosedNode>/testFSM - behavior C:|Users|Lenovo|Desktop|lab5|Register_File_RF|testFSM.vhd</ClosedNode>
+         <ClosedNode>/testIFSTAGEmodule - behavior C:|Users|user00000|Desktop|LAB2|Register_File_RF|testIFSTAGEmodule.vhd</ClosedNode>
+         <ClosedNode>/testIFincImmed - behavior C:|Users|user00000|Desktop|LAB2|Register_File_RF|testIFincImmed.vhd</ClosedNode>
+         <ClosedNode>/testIFincr4 - behavior C:|Users|Lenovo|Desktop|LAB2|Register_File_RF|testIFincr4.vhd</ClosedNode>
+         <ClosedNode>/testIFincr4 - behavior C:|Users|user00000|Desktop|LAB2|Register_File_RF|testIFincr4.vhd</ClosedNode>
+         <ClosedNode>/testIFstage - behavior C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|testIFstage.vhd</ClosedNode>
+         <ClosedNode>/testIFstage - behavior C:|Users|Lenovo|Desktop|lab5|Register_File_RF|testIFstage.vhd</ClosedNode>
+         <ClosedNode>/testIFstage - behavior C:|Users|user00000|Desktop|LAB2|Register_File_RF|testIFstage.vhd</ClosedNode>
+         <ClosedNode>/testIFstage - behavior F:|LAB2|Register_File_RF|testIFstage.vhd</ClosedNode>
+         <ClosedNode>/testMEMSTAGE - behavior C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|testMEMSTAGE.vhd</ClosedNode>
+         <ClosedNode>/testMEMSTAGE - behavior C:|Users|Lenovo|Desktop|lab5|Register_File_RF|testMEMSTAGE.vhd</ClosedNode>
+         <ClosedNode>/testMEMSTAGE - behavior C:|Users|user00000|Desktop|LAB2|Register_File_RF|testMEMSTAGE.vhd</ClosedNode>
+         <ClosedNode>/testMEMSTAGE - behavior F:|LAB2|Register_File_RF|testMEMSTAGE.vhd</ClosedNode>
+         <ClosedNode>/testMODULEifstage - behavior C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|testMODULEifstage.vhd</ClosedNode>
+         <ClosedNode>/testMODULEifstage - behavior C:|Users|Lenovo|Desktop|lab5|Register_File_RF|testMODULEifstage.vhd</ClosedNode>
+         <ClosedNode>/testMODULEifstage - behavior C:|Users|user00000|Desktop|LAB2|Register_File_RF|testMODULEifstage.vhd</ClosedNode>
+         <ClosedNode>/testMODULEifstage - behavior F:|LAB2|Register_File_RF|testMODULEifstage.vhd</ClosedNode>
+         <ClosedNode>/testMUX2to1 - behavior C:|Users|Lenovo|Desktop|LAB2|Register_File_RF|testMUX2to1.vhd</ClosedNode>
+         <ClosedNode>/testMUX2to1 - behavior C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|testMUX2to1.vhd</ClosedNode>
+         <ClosedNode>/testMUX2to1 - behavior C:|Users|Lenovo|Desktop|lab1|Register_File_RF|testMUX2to1.vhd</ClosedNode>
+         <ClosedNode>/testMUX2to1 - behavior C:|Users|Lenovo|Desktop|lab5|Register_File_RF|testMUX2to1.vhd</ClosedNode>
+         <ClosedNode>/testMUX2to1 - behavior C:|Users|Lenovo|Desktop|zou|lab1|Register_File_RF|testMUX2to1.vhd</ClosedNode>
+         <ClosedNode>/testMUX2to1 - behavior C:|Users|user00000|Desktop|LAB2|Register_File_RF|testMUX2to1.vhd</ClosedNode>
+         <ClosedNode>/testPC - behavior C:|Users|Lenovo|Desktop|LAB2|Register_File_RF|testPC.vhd</ClosedNode>
+         <ClosedNode>/testPC - behavior C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|testPC.vhd</ClosedNode>
+         <ClosedNode>/testPC - behavior C:|Users|Lenovo|Desktop|lab5|Register_File_RF|testPC.vhd</ClosedNode>
+         <ClosedNode>/testPC - behavior C:|Users|user00000|Desktop|LAB2|Register_File_RF|testPC.vhd</ClosedNode>
+         <ClosedNode>/testPC - behavior F:|LAB2|Register_File_RF|testPC.vhd</ClosedNode>
+         <ClosedNode>/testProcLab5 - behavior C:|Users|Lenovo|Desktop|lab5|Register_File_RF|testProcLab5.vhd</ClosedNode>
+         <ClosedNode>/testProcessor - behavior C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|testProcessor.vhd/uut - processor - Behavioral/ALU_proc - ALUSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/testProcessor - behavior C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|testProcessor.vhd/uut - processor - Behavioral/dec_proc - DECSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/testProcessor - behavior C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|testProcessor.vhd/uut - processor - Behavioral/if_stage_proc - IFSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/testProcessor - behavior C:|Users|Lenovo|Desktop|lab5|Register_File_RF|testProcessor.vhd</ClosedNode>
+         <ClosedNode>/test_ALUSTAGE - behavior C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|test_ALUSTAGE.vhd</ClosedNode>
+         <ClosedNode>/test_ALUSTAGE - behavior C:|Users|Lenovo|Desktop|lab5|Register_File_RF|test_ALUSTAGE.vhd</ClosedNode>
+         <ClosedNode>/test_ALUSTAGE - behavior C:|Users|user00000|Desktop|LAB2|Register_File_RF|test_ALUSTAGE.vhd</ClosedNode>
+         <ClosedNode>/test_ALUSTAGE - behavior F:|LAB2|Register_File_RF|test_ALUSTAGE.vhd</ClosedNode>
+         <ClosedNode>/test_ALU_operation - behavior C:|Users|Lenovo|Desktop|LAB2|Register_File_RF|test_ALU_operation.vhd</ClosedNode>
+         <ClosedNode>/test_ALU_operation - behavior C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|test_ALU_operation.vhd</ClosedNode>
+         <ClosedNode>/test_ALU_operation - behavior C:|Users|Lenovo|Desktop|lab5|Register_File_RF|test_ALU_operation.vhd</ClosedNode>
+         <ClosedNode>/test_ALU_operation - behavior C:|Users|Lenovo|Desktop|zou|lab1|Register_File_RF|test_ALU_operation.vhd</ClosedNode>
+         <ClosedNode>/test_ALU_operation - behavior C:|Users|user00000|Desktop|LAB2|Register_File_RF|test_ALU_operation.vhd</ClosedNode>
+         <ClosedNode>/test_ALU_operation - behavior F:|LAB2|Register_File_RF|test_ALU_operation.vhd</ClosedNode>
+         <ClosedNode>/test_ALU_outputs - behavior C:|Users|Lenovo|Desktop|LAB2|Register_File_RF|test_ALU_outputs.vhd</ClosedNode>
+         <ClosedNode>/test_ALU_outputs - behavior C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|test_ALU_outputs.vhd</ClosedNode>
+         <ClosedNode>/test_ALU_outputs - behavior C:|Users|Lenovo|Desktop|lab5|Register_File_RF|test_ALU_outputs.vhd</ClosedNode>
+         <ClosedNode>/test_ALU_outputs - behavior C:|Users|user00000|Desktop|LAB2|Register_File_RF|test_ALU_outputs.vhd</ClosedNode>
+         <ClosedNode>/test_ALU_outputs - behavior F:|LAB2|Register_File_RF|test_ALU_outputs.vhd</ClosedNode>
+         <ClosedNode>/test_CM - behavior C:|Users|Lenovo|Desktop|lab1|Register_File_RF|test_CM.vhd</ClosedNode>
+         <ClosedNode>/test_CM - behavior C:|Users|Lenovo|Desktop|zou|lab1|Register_File_RF|test_CM.vhd</ClosedNode>
+         <ClosedNode>/test_EXTENDER - behavior C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|test_EXTENDER.vhd</ClosedNode>
+         <ClosedNode>/test_EXTENDER - behavior C:|Users|Lenovo|Desktop|lab5|Register_File_RF|test_EXTENDER.vhd</ClosedNode>
+         <ClosedNode>/test_EXTENDER - behavior C:|Users|user00000|Desktop|LAB2|Register_File_RF|test_EXTENDER.vhd</ClosedNode>
+         <ClosedNode>/test_EXTENDER - behavior F:|LAB2|Register_File_RF|test_EXTENDER.vhd</ClosedNode>
+         <ClosedNode>/test_IF_Stage_2 - behavior C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|test_IF_Stage_2.vhd</ClosedNode>
+         <ClosedNode>/test_IF_Stage_2 - behavior C:|Users|Lenovo|Desktop|lab5|Register_File_RF|test_IF_Stage_2.vhd</ClosedNode>
+         <ClosedNode>/test_compare_module - behavior C:|Users|Lenovo|Desktop|LAB2|Register_File_RF|test_compare_module.vhd</ClosedNode>
+         <ClosedNode>/test_compare_module - behavior C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|test_compare_module.vhd</ClosedNode>
+         <ClosedNode>/test_compare_module - behavior C:|Users|Lenovo|Desktop|lab5|Register_File_RF|test_compare_module.vhd</ClosedNode>
+         <ClosedNode>/test_compare_module - behavior C:|Users|Lenovo|Desktop|zou|lab1|Register_File_RF|test_compare_module.vhd</ClosedNode>
+         <ClosedNode>/test_compare_module - behavior C:|Users|user00000|Desktop|LAB2|Register_File_RF|test_compare_module.vhd</ClosedNode>
+         <ClosedNode>/test_compare_module - behavior F:|LAB2|Register_File_RF|test_compare_module.vhd</ClosedNode>
+         <ClosedNode>/testara_RF - behavior C:|Users|Lenovo|Desktop|LAB2|Register_File_RF|testara_RF.vhd</ClosedNode>
+         <ClosedNode>/testara_RF - behavior C:|Users|Lenovo|Desktop|LAB3|Register_File_RF|testara_RF.vhd</ClosedNode>
+         <ClosedNode>/testara_RF - behavior C:|Users|Lenovo|Desktop|lab1|Register_File_RF|testara_RF.vhd</ClosedNode>
+         <ClosedNode>/testara_RF - behavior C:|Users|Lenovo|Desktop|lab5|Register_File_RF|testara_RF.vhd</ClosedNode>
+         <ClosedNode>/testara_RF - behavior C:|Users|Lenovo|Desktop|zou|lab1|Register_File_RF|testara_RF.vhd</ClosedNode>
+         <ClosedNode>/testara_RF - behavior C:|Users|user00000|Desktop|LAB2|Register_File_RF|testara_RF.vhd</ClosedNode>
+         <ClosedNode>/testara_RF - behavior F:|LAB2|Register_File_RF|testara_RF.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>lab5 - behavior (C:/Users/user00000/Desktop/lab5org -fwd - stall/lab5.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000032f000000020000000000000000000000000200000064ffffffff0000008100000003000000020000032f0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>lab5 - behavior (C:/Users/user00000/Desktop/lab5org -fwd - stall/lab5.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000da000000010000000100000000000000000000000064ffffffff000000810000000000000001000000da0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000da000000010000000100000000000000000000000064ffffffff000000810000000000000001000000da0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000001240000009b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+</Project>

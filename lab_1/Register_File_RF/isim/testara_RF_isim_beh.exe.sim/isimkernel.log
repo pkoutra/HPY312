@@ -1,0 +1,29 @@
+Command line:
+   testara_RF_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52587
+
+Sun Mar 11 15:54:12 2018
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 565.494 Meg
+
+ Total Signals          : 273
+ Total Nets             : 2355
+ Total Signal Drivers   : 108
+ Total Blocks           : 74
+ Total Primitive Blocks : 41
+ Total Processes        : 72
+ Total Traceable Variables  : 45
+ Total Scalar Nets and Variables : 2870
+Total Line Count : 310
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 565.494 Meg
+
+Sun Mar 11 15:54:19 2018
+

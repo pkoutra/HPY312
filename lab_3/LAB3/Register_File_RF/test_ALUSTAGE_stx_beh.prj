@@ -1,0 +1,6 @@
+vhdl isim_temp "ALU_Outputs.vhd"
+vhdl isim_temp "ALU_operation.vhd"
+vhdl isim_temp "MUX_pre_ALU.vhd"
+vhdl isim_temp "ALU.vhd"
+vhdl isim_temp "ALUSTAGE.vhd"
+vhdl isim_temp "test_ALUSTAGE.vhd"

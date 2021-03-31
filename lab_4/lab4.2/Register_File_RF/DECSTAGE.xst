@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/user00000/Desktop/lab4.2/Register_File_RF/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/user00000/Desktop/lab4.2/Register_File_RF/xst"
+elaborate
+-ifn DECSTAGE.prj
+-ifmt mixed

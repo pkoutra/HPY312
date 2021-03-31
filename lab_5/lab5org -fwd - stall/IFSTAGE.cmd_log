@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "F:/LAB2/Register_File_RF/IFSTAGE.xst" -ofn "F:/LAB2/Register_File_RF/IFSTAGE.syr" 

@@ -1,0 +1,2 @@
+vhdl isim_temp "Incrementor.vhd"
+vhdl isim_temp "testIFincr4.vhd"

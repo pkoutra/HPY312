@@ -1,0 +1,84 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Users/user00000/Desktop/lab5org -fwd - stall/lab5_isim_beh.exe" -prj "C:/Users/user00000/Desktop/lab5org -fwd - stall/lab5_beh.prj" "work.lab5" 
+ISim O.87xd (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/Register_32.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/MUX_32_to_1.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/MUX_2_to_1.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/Decoder_5_to_32.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/Compare_Module.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/ALU_Outputs.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/ALU_operation.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/Register_File_RF.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/PC_Register.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/MUX_RF_Instr.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/MUX_reg_file.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/MUX_pre_ALU.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/muxPC.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/mux4to1.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/mux2_to_1_proc.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/LSB_taker.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/incrementorImmed.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/Incrementor.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/Immed_Converter.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/CONTROL_STAGE_NEW.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/STALL_MODULE.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/RAM.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/PIPELINE_SMALL_REG.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/PipelineRegister.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/MEMSTAGE.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/IFSTAGE.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/FORWARD_UNIT.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/DECODE.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/ALUSTAGE.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/processor.vhd" into library work
+Parsing VHDL file "C:/Users/user00000/Desktop/lab5org -fwd - stall/lab5.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture behavioral of entity PC_Register [pc_register_default]
+Compiling architecture behavioral of entity Incrementor [incrementor_default]
+Compiling architecture behavioral of entity incrementorImmed [incrementorimmed_default]
+Compiling architecture behavioral of entity muxPC [muxpc_default]
+Compiling architecture behavioral of entity IFSTAGE [ifstage_default]
+Compiling architecture syn of entity RAM [ram_default]
+Compiling architecture behavioral of entity Immed_Converter [immed_converter_default]
+Compiling architecture behavioral of entity MUX_RF_Instr [mux_rf_instr_default]
+Compiling architecture behavioral of entity MUX_reg_file [mux_reg_file_default]
+Compiling architecture behavioral of entity Decoder_5_to_32 [decoder_5_to_32_default]
+Compiling architecture behavioral of entity Register_32 [register_32_default]
+Compiling architecture behavioral of entity Compare_Module [compare_module_default]
+Compiling architecture behavioral of entity MUX_32_to_1 [mux_32_to_1_default]
+Compiling architecture behavioral of entity MUX_2_to_1 [mux_2_to_1_default]
+Compiling architecture behavioral of entity Register_File_RF [register_file_rf_default]
+Compiling architecture behavioral of entity CONTROL_STAGE_NEW [control_stage_new_default]
+Compiling architecture behavioral of entity DECSTAGE [decstage_default]
+Compiling architecture behavioral of entity PipelineRegister [pipelineregister_default]
+Compiling architecture behavioral of entity MUX_pre_ALU [mux_pre_alu_default]
+Compiling architecture behavioral of entity mux4to1 [mux4to1_default]
+Compiling architecture behavioral of entity ALU_operation [alu_operation_default]
+Compiling architecture behavioral of entity ALU_Outputs [alu_outputs_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity mux2_to_1_proc [mux2_to_1_proc_default]
+Compiling architecture behavioral of entity ALUSTAGE [alustage_default]
+Compiling architecture behavioral of entity LSB_taker [lsb_taker_default]
+Compiling architecture behavioral of entity MEMSTAGE [memstage_default]
+Compiling architecture behavioral of entity PIPELINE_SMALL_REG [pipeline_small_reg_default]
+Compiling architecture behavioral of entity FORWARD_UNIT [forward_unit_default]
+Compiling architecture behavioral of entity STALL_MODULE [stall_module_default]
+Compiling architecture behavioral of entity processor [processor_default]
+Compiling architecture behavior of entity lab5
+Time Resolution for simulation is 1ps.
+Waiting for 31 sub-compilation(s) to finish...
+Compiled 70 VHDL Units
+Built simulation executable C:/Users/user00000/Desktop/lab5org -fwd - stall/lab5_isim_beh.exe
+Fuse Memory Usage: 46468 KB
+Fuse CPU Usage: 1452 ms

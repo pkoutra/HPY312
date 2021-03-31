@@ -1,0 +1,6 @@
+vhdl work "C:\Users\user00000\Desktop\LAB2\Register_File_RF\RAM.vhd"
+vhdl work "C:\Users\user00000\Desktop\LAB2\Register_File_RF\PC_Register.vhd"
+vhdl work "C:\Users\user00000\Desktop\LAB2\Register_File_RF\muxPC.vhd"
+vhdl work "C:\Users\user00000\Desktop\LAB2\Register_File_RF\incrementorImmed.vhd"
+vhdl work "C:\Users\user00000\Desktop\LAB2\Register_File_RF\Incrementor.vhd"
+vhdl work "C:\Users\user00000\Desktop\LAB2\Register_File_RF\IFSTAGE.vhd"

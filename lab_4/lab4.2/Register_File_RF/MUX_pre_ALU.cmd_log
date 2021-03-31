@@ -1,0 +1,1 @@
+vhdtdtfi -prj Register_File_RF -o C:/Users/user00000/Desktop/lab4.2/Register_File_RF/MUX_pre_ALU.vhi -module MUX_pre_ALU -template C:/Xilinx/13.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work MUX_pre_ALU.vhd 

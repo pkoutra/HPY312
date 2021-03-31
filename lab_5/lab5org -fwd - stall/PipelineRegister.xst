@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/user00000/Desktop/lab5org -fwd/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/user00000/Desktop/lab5org -fwd/xst"
+elaborate
+-ifn PipelineRegister.prj
+-ifmt mixed

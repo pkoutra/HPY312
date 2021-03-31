@@ -1,0 +1,58 @@
+Release 13.4 - xst O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to F:/LAB1_ORGANWSH/Register_File_RF/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.27 secs
+ 
+--> Parameter xsthdpdir set to F:/LAB1_ORGANWSH/Register_File_RF/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.27 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/Register_File_RF is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/lab1/Register_File_RF/Register_File_RF.vhd", and is now defined in "F:/LAB1_ORGANWSH/Register_File_RF/Register_File_RF.vhd".
+WARNING:HDLParsers:3607 - Unit work/Register_File_RF/Behavioral is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/lab1/Register_File_RF/Register_File_RF.vhd", and is now defined in "F:/LAB1_ORGANWSH/Register_File_RF/Register_File_RF.vhd".
+WARNING:HDLParsers:3607 - Unit work/Compare_Module is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/lab1/Register_File_RF/Compare_Module.vhd", and is now defined in "F:/LAB1_ORGANWSH/Register_File_RF/Compare_Module.vhd".
+WARNING:HDLParsers:3607 - Unit work/Compare_Module/Behavioral is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/lab1/Register_File_RF/Compare_Module.vhd", and is now defined in "F:/LAB1_ORGANWSH/Register_File_RF/Compare_Module.vhd".
+WARNING:HDLParsers:3607 - Unit work/Decoder_5_to_32 is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/lab1/Register_File_RF/Decoder_5_to_32.vhd", and is now defined in "F:/LAB1_ORGANWSH/Register_File_RF/Decoder_5_to_32.vhd".
+WARNING:HDLParsers:3607 - Unit work/Decoder_5_to_32/Behavioral is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/lab1/Register_File_RF/Decoder_5_to_32.vhd", and is now defined in "F:/LAB1_ORGANWSH/Register_File_RF/Decoder_5_to_32.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUX_2_to_1 is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/lab1/Register_File_RF/MUX_2_to_1.vhd", and is now defined in "F:/LAB1_ORGANWSH/Register_File_RF/MUX_2_to_1.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUX_2_to_1/Behavioral is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/lab1/Register_File_RF/MUX_2_to_1.vhd", and is now defined in "F:/LAB1_ORGANWSH/Register_File_RF/MUX_2_to_1.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUX_32_to_1 is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/lab1/Register_File_RF/MUX_32_to_1.vhd", and is now defined in "F:/LAB1_ORGANWSH/Register_File_RF/MUX_32_to_1.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUX_32_to_1/Behavioral is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/lab1/Register_File_RF/MUX_32_to_1.vhd", and is now defined in "F:/LAB1_ORGANWSH/Register_File_RF/MUX_32_to_1.vhd".
+WARNING:HDLParsers:3607 - Unit work/Register_32 is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/lab1/Register_File_RF/Register_32.vhd", and is now defined in "F:/LAB1_ORGANWSH/Register_File_RF/Register_32.vhd".
+WARNING:HDLParsers:3607 - Unit work/Register_32/Behavioral is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/lab1/Register_File_RF/Register_32.vhd", and is now defined in "F:/LAB1_ORGANWSH/Register_File_RF/Register_32.vhd".
+Compiling vhdl file "F:/LAB1_ORGANWSH/Register_File_RF/Decoder_5_to_32.vhd" in Library work.
+Architecture behavioral of Entity decoder_5_to_32 is up to date.
+Compiling vhdl file "F:/LAB1_ORGANWSH/Register_File_RF/Register_32.vhd" in Library work.
+Architecture behavioral of Entity register_32 is up to date.
+Compiling vhdl file "F:/LAB1_ORGANWSH/Register_File_RF/Compare_Module.vhd" in Library work.
+Entity <compare_module> compiled.
+Entity <compare_module> (Architecture <behavioral>) compiled.
+Compiling vhdl file "F:/LAB1_ORGANWSH/Register_File_RF/MUX_32_to_1.vhd" in Library work.
+Architecture behavioral of Entity mux_32_to_1 is up to date.
+Compiling vhdl file "F:/LAB1_ORGANWSH/Register_File_RF/MUX_2_to_1.vhd" in Library work.
+Architecture behavioral of Entity mux_2_to_1 is up to date.
+Compiling vhdl file "F:/LAB1_ORGANWSH/Register_File_RF/Register_File_RF.vhd" in Library work.
+Entity <register_file_rf> compiled.
+Entity <register_file_rf> (Architecture <behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.42 secs
+ 
+--> 
+
+Total memory usage is 206592 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   13 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,84 @@
+Release 13.4 - xst O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/ALU_operation.vhd" in Library work.
+Architecture behavioral of Entity alu_operation is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/ALU_Outputs.vhd" in Library work.
+Architecture behavioral of Entity alu_outputs is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/Decoder_5_to_32.vhd" in Library work.
+Architecture behavioral of Entity decoder_5_to_32 is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/Register_32.vhd" in Library work.
+Architecture behavioral of Entity register_32 is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/Compare_Module.vhd" in Library work.
+Architecture behavioral of Entity compare_module is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/MUX_32_to_1.vhd" in Library work.
+Architecture behavioral of Entity mux_32_to_1 is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/MUX_2_to_1.vhd" in Library work.
+Architecture behavioral of Entity mux_2_to_1 is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/MUX_pre_ALU.vhd" in Library work.
+Architecture behavioral of Entity mux_pre_alu is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/ALU.vhd" in Library work.
+Architecture behavioral of Entity alu is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/Immed_Converter.vhd" in Library work.
+Architecture behavioral of Entity immed_converter is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/MUX_RF_Instr.vhd" in Library work.
+Architecture behavioral of Entity mux_rf_instr is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/MUX_reg_file.vhd" in Library work.
+Architecture behavioral of Entity mux_reg_file is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/Register_File_RF.vhd" in Library work.
+Architecture behavioral of Entity register_file_rf is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/PC_Register.vhd" in Library work.
+Architecture behavioral of Entity pc_register is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/Incrementor.vhd" in Library work.
+Architecture behavioral of Entity incrementor is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/incrementorImmed.vhd" in Library work.
+Architecture behavioral of Entity incrementorimmed is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/muxPC.vhd" in Library work.
+Architecture behavioral of Entity muxpc is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/IFSTAGE.vhd" in Library work.
+Architecture behavioral of Entity ifstage is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/RAM.vhd" in Library work.
+Architecture syn of Entity ram is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/DECODE.vhd" in Library work.
+Architecture behavioral of Entity decstage is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/ALUSTAGE.vhd" in Library work.
+Architecture behavioral of Entity alustage is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/MEMSTAGE.vhd" in Library work.
+Architecture behavioral of Entity memstage is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/LSB_taker.vhd" in Library work.
+Architecture behavioral of Entity lsb_taker is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/mux2_to_1_proc.vhd" in Library work.
+Architecture behavioral of Entity mux2_to_1_proc is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/CONTROL.vhd" in Library work.
+Architecture behavioral of Entity control is up to date.
+Compiling vhdl file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/processor.vhd" in Library work.
+Architecture behavioral of Entity processor is up to date.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.99 secs
+ 
+--> 
+
+Total memory usage is 211520 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

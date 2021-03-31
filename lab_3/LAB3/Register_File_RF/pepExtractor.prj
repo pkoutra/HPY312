@@ -1,0 +1,5 @@
+work	"IFSTAGE.vhd"
+work	"Incrementor.vhd"
+work	"PC_Register.vhd"
+work	"incrementorImmed.vhd"
+work	"muxPC.vhd"

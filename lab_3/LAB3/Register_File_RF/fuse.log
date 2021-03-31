@@ -1,0 +1,74 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/testProcessor_isim_beh.exe" -prj "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/testProcessor_beh.prj" "work.testProcessor" 
+ISim O.87xd (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/Register_32.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/MUX_32_to_1.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/MUX_2_to_1.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/Decoder_5_to_32.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/Compare_Module.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/ALU_Outputs.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/ALU_operation.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/Register_File_RF.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/PC_Register.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/MUX_RF_Instr.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/MUX_reg_file.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/MUX_pre_ALU.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/muxPC.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/incrementorImmed.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/Incrementor.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/Immed_Converter.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/RAM.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/mux2_to_1_proc.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/MEMSTAGE.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/LSB_taker.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/IFSTAGE.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/DECODE.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/CONTROL.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/ALUSTAGE.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/processor.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/testProcessor.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture behavioral of entity PC_Register [pc_register_default]
+Compiling architecture behavioral of entity Incrementor [incrementor_default]
+Compiling architecture behavioral of entity incrementorImmed [incrementorimmed_default]
+Compiling architecture behavioral of entity muxPC [muxpc_default]
+Compiling architecture behavioral of entity IFSTAGE [ifstage_default]
+Compiling architecture syn of entity RAM [ram_default]
+Compiling architecture behavioral of entity Immed_Converter [immed_converter_default]
+Compiling architecture behavioral of entity MUX_RF_Instr [mux_rf_instr_default]
+Compiling architecture behavioral of entity MUX_reg_file [mux_reg_file_default]
+Compiling architecture behavioral of entity Decoder_5_to_32 [decoder_5_to_32_default]
+Compiling architecture behavioral of entity Register_32 [register_32_default]
+Compiling architecture behavioral of entity Compare_Module [compare_module_default]
+Compiling architecture behavioral of entity MUX_32_to_1 [mux_32_to_1_default]
+Compiling architecture behavioral of entity MUX_2_to_1 [mux_2_to_1_default]
+Compiling architecture behavioral of entity Register_File_RF [register_file_rf_default]
+Compiling architecture behavioral of entity DECSTAGE [decstage_default]
+Compiling architecture behavioral of entity MUX_pre_ALU [mux_pre_alu_default]
+Compiling architecture behavioral of entity ALU_operation [alu_operation_default]
+Compiling architecture behavioral of entity ALU_Outputs [alu_outputs_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity ALUSTAGE [alustage_default]
+Compiling architecture behavioral of entity MEMSTAGE [memstage_default]
+Compiling architecture behavioral of entity LSB_taker [lsb_taker_default]
+Compiling architecture behavioral of entity mux2_to_1_proc [mux2_to_1_proc_default]
+Compiling architecture behavioral of entity CONTROL [control_default]
+Compiling architecture behavioral of entity processor [processor_default]
+Compiling architecture behavior of entity testprocessor
+Time Resolution for simulation is 1ps.
+Waiting for 24 sub-compilation(s) to finish...
+Compiled 60 VHDL Units
+Built simulation executable C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/testProcessor_isim_beh.exe
+Fuse Memory Usage: 42096 KB
+Fuse CPU Usage: 2292 ms

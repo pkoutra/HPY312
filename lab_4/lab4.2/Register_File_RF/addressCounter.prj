@@ -1,0 +1,4 @@
+vhdl work "Register_32.vhd"
+vhdl work "MUX_2_to_1.vhd"
+vhdl work "Incrementor.vhd"
+vhdl work "addressCounter.vhd"

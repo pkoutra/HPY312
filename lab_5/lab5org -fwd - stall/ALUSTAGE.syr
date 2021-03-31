@@ -1,0 +1,395 @@
+Release 13.4 - xst O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: ALUSTAGE.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ALUSTAGE.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ALUSTAGE"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : ALUSTAGE
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/ALUSTAGE is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/ALUSTAGE.vhd", and is now defined in "F:/LAB2/Register_File_RF/ALUSTAGE.vhd".
+WARNING:HDLParsers:3607 - Unit work/ALUSTAGE/Behavioral is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/ALUSTAGE.vhd", and is now defined in "F:/LAB2/Register_File_RF/ALUSTAGE.vhd".
+WARNING:HDLParsers:3607 - Unit work/ALU is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/ALU.vhd", and is now defined in "F:/LAB2/Register_File_RF/ALU.vhd".
+WARNING:HDLParsers:3607 - Unit work/ALU/Behavioral is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/ALU.vhd", and is now defined in "F:/LAB2/Register_File_RF/ALU.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUX_pre_ALU is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/MUX_pre_ALU.vhd", and is now defined in "F:/LAB2/Register_File_RF/MUX_pre_ALU.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUX_pre_ALU/Behavioral is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/MUX_pre_ALU.vhd", and is now defined in "F:/LAB2/Register_File_RF/MUX_pre_ALU.vhd".
+WARNING:HDLParsers:3607 - Unit work/ALU_operation is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/ALU_operation.vhd", and is now defined in "F:/LAB2/Register_File_RF/ALU_operation.vhd".
+WARNING:HDLParsers:3607 - Unit work/ALU_operation/Behavioral is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/ALU_operation.vhd", and is now defined in "F:/LAB2/Register_File_RF/ALU_operation.vhd".
+WARNING:HDLParsers:3607 - Unit work/ALU_Outputs is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/ALU_Outputs.vhd", and is now defined in "F:/LAB2/Register_File_RF/ALU_Outputs.vhd".
+WARNING:HDLParsers:3607 - Unit work/ALU_Outputs/Behavioral is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/ALU_Outputs.vhd", and is now defined in "F:/LAB2/Register_File_RF/ALU_Outputs.vhd".
+Compiling vhdl file "F:/LAB2/Register_File_RF/ALU_operation.vhd" in Library work.
+Architecture behavioral of Entity alu_operation is up to date.
+Compiling vhdl file "F:/LAB2/Register_File_RF/ALU_Outputs.vhd" in Library work.
+Architecture behavioral of Entity alu_outputs is up to date.
+Compiling vhdl file "F:/LAB2/Register_File_RF/MUX_pre_ALU.vhd" in Library work.
+Architecture behavioral of Entity mux_pre_alu is up to date.
+Compiling vhdl file "F:/LAB2/Register_File_RF/ALU.vhd" in Library work.
+Architecture behavioral of Entity alu is up to date.
+Compiling vhdl file "F:/LAB2/Register_File_RF/ALUSTAGE.vhd" in Library work.
+Architecture behavioral of Entity alustage is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <ALUSTAGE> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MUX_pre_ALU> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ALU> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ALU_operation> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ALU_Outputs> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ALUSTAGE> in library <work> (Architecture <behavioral>).
+Entity <ALUSTAGE> analyzed. Unit <ALUSTAGE> generated.
+
+Analyzing Entity <MUX_pre_ALU> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "F:/LAB2/Register_File_RF/MUX_pre_ALU.vhd" line 46: Mux is complete : default of case is discarded
+Entity <MUX_pre_ALU> analyzed. Unit <MUX_pre_ALU> generated.
+
+Analyzing Entity <ALU> in library <work> (Architecture <behavioral>).
+Entity <ALU> analyzed. Unit <ALU> generated.
+
+Analyzing Entity <ALU_operation> in library <work> (Architecture <behavioral>).
+Entity <ALU_operation> analyzed. Unit <ALU_operation> generated.
+
+Analyzing Entity <ALU_Outputs> in library <work> (Architecture <behavioral>).
+Entity <ALU_Outputs> analyzed. Unit <ALU_Outputs> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <MUX_pre_ALU>.
+    Related source file is "F:/LAB2/Register_File_RF/MUX_pre_ALU.vhd".
+Unit <MUX_pre_ALU> synthesized.
+
+
+Synthesizing Unit <ALU_operation>.
+    Related source file is "F:/LAB2/Register_File_RF/ALU_operation.vhd".
+    Found 32-bit adder for signal <OutOperation_31$add0000> created at line 47.
+    Found 32-bit subtractor for signal <OutOperation_31$sub0000> created at line 48.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+Unit <ALU_operation> synthesized.
+
+
+Synthesizing Unit <ALU_Outputs>.
+    Related source file is "F:/LAB2/Register_File_RF/ALU_Outputs.vhd".
+WARNING:Xst:647 - Input <BOp<30:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <AOp<30:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit xor2 for signal <Cout$xor0000> created at line 83.
+Unit <ALU_Outputs> synthesized.
+
+
+Synthesizing Unit <ALU>.
+    Related source file is "F:/LAB2/Register_File_RF/ALU.vhd".
+Unit <ALU> synthesized.
+
+
+Synthesizing Unit <ALUSTAGE>.
+    Related source file is "F:/LAB2/Register_File_RF/ALUSTAGE.vhd".
+Unit <ALUSTAGE> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 32-bit adder                                          : 1
+ 32-bit subtractor                                     : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 32-bit adder                                          : 1
+ 32-bit subtractor                                     : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ALUSTAGE> ...
+
+Optimizing unit <ALU_operation> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ALUSTAGE, actual ratio is 22.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ALUSTAGE.ngr
+Top Level Output File Name         : ALUSTAGE
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 136
+
+Cell Usage :
+# BELS                             : 505
+#      GND                         : 1
+#      LUT2                        : 32
+#      LUT3                        : 16
+#      LUT4                        : 288
+#      MUXCY                       : 71
+#      MUXF5                       : 32
+#      VCC                         : 1
+#      XORCY                       : 64
+# IO Buffers                       : 136
+#      IBUF                        : 101
+#      OBUF                        : 35
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                      183  out of    960    19%  
+ Number of 4 input LUTs:                336  out of   1920    17%  
+ Number of IOs:                         136
+ Number of bonded IOBs:                 136  out of     83   163% (*) 
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 13.558ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 12710 / 35
+-------------------------------------------------------------------------
+Delay:               13.558ns (Levels of Logic = 29)
+  Source:            ALU_Bin_sel (PAD)
+  Destination:       Zero (PAD)
+
+  Data Path: ALU_Bin_sel to Zero
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           127   1.106   1.167  ALU_Bin_sel_IBUF (ALU_Bin_sel_IBUF)
+     LUT4:I1->O            1   0.612   0.000  ALU_mod/Operation/Madd_OutOperation_31_add0000_lut<0> (ALU_mod/Operation/Madd_OutOperation_31_add0000_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<0> (ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<0>)
+     MUXCY:CI->O           1   0.052   0.000  ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<1> (ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<2> (ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<3> (ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<4> (ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<5> (ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<6> (ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<6>)
+     MUXCY:CI->O           1   0.052   0.000  ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<7> (ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<7>)
+     MUXCY:CI->O           1   0.052   0.000  ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<8> (ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<8>)
+     MUXCY:CI->O           1   0.052   0.000  ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<9> (ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<9>)
+     MUXCY:CI->O           1   0.052   0.000  ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<10> (ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<10>)
+     MUXCY:CI->O           1   0.052   0.000  ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<11> (ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<11>)
+     MUXCY:CI->O           1   0.052   0.000  ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<12> (ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<12>)
+     MUXCY:CI->O           1   0.052   0.000  ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<13> (ALU_mod/Operation/Madd_OutOperation_31_add0000_cy<13>)
+     XORCY:CI->O           1   0.699   0.509  ALU_mod/Operation/Madd_OutOperation_31_add0000_xor<14> (ALU_mod/Operation/OutOperation_31_add0000<14>)
+     LUT2:I0->O            1   0.612   0.000  ALU_mod/Operation/OutOperation_14_mux00001022 (ALU_mod/Operation/OutOperation_14_mux00001022)
+     MUXF5:I0->O           1   0.278   0.387  ALU_mod/Operation/OutOperation_14_mux0000102_f5 (ALU_mod/Operation/OutOperation_14_mux0000102)
+     LUT4:I2->O            1   0.612   0.360  ALU_mod/Operation/OutOperation_14_mux0000141_SW0 (N69)
+     LUT4:I3->O            2   0.612   0.383  ALU_mod/Operation/OutOperation_14_mux0000141 (ALU_out_14_OBUF)
+     LUT4:I3->O            1   0.612   0.000  ALU_mod/Outputs/Zero_wg_lut<3> (ALU_mod/Outputs/Zero_wg_lut<3>)
+     MUXCY:S->O            1   0.404   0.000  ALU_mod/Outputs/Zero_wg_cy<3> (ALU_mod/Outputs/Zero_wg_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  ALU_mod/Outputs/Zero_wg_cy<4> (ALU_mod/Outputs/Zero_wg_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  ALU_mod/Outputs/Zero_wg_cy<5> (ALU_mod/Outputs/Zero_wg_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  ALU_mod/Outputs/Zero_wg_cy<6> (ALU_mod/Outputs/Zero_wg_cy<6>)
+     MUXCY:CI->O           1   0.052   0.000  ALU_mod/Outputs/Zero_wg_cy<7> (ALU_mod/Outputs/Zero_wg_cy<7>)
+     MUXCY:CI->O           1   0.399   0.357  ALU_mod/Outputs/Zero_wg_cy<8> (Zero_OBUF)
+     OBUF:I->O                 3.169          Zero_OBUF (Zero)
+    ----------------------------------------
+    Total                     13.558ns (10.395ns logic, 3.163ns route)
+                                       (76.7% logic, 23.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 13.78 secs
+ 
+--> 
+
+Total memory usage is 308332 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   13 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

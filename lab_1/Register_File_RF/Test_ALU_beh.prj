@@ -1,0 +1,4 @@
+vhdl work "ALU_Outputs.vhd"
+vhdl work "ALU_operation.vhd"
+vhdl work "ALU.vhd"
+vhdl work "Test_ALU.vhd"

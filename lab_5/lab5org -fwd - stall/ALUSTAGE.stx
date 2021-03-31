@@ -1,0 +1,46 @@
+Release 13.4 - xst O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/user00000/Desktop/lab5org -fwd/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/user00000/Desktop/lab5org -fwd/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd/ALU_operation.vhd" in Library work.
+Architecture behavioral of Entity alu_operation is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd/ALU_Outputs.vhd" in Library work.
+Architecture behavioral of Entity alu_outputs is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd/MUX_pre_ALU.vhd" in Library work.
+Architecture behavioral of Entity mux_pre_alu is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd/mux4to1.vhd" in Library work.
+Architecture behavioral of Entity mux4to1 is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd/ALU.vhd" in Library work.
+Architecture behavioral of Entity alu is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd/mux2_to_1_proc.vhd" in Library work.
+Architecture behavioral of Entity mux2_to_1_proc is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd/ALUSTAGE.vhd" in Library work.
+Architecture behavioral of Entity alustage is up to date.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.28 secs
+ 
+--> 
+
+Total memory usage is 318348 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

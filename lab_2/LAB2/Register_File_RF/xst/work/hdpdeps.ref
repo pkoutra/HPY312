@@ -1,0 +1,187 @@
+V3 104
+FL C:/Users/Lenovo/Desktop/lab1/Register_File_RF/Compare_Module.vhd 2018/02/28.20:04:01 O.87xd
+FL C:/Users/Lenovo/Desktop/lab1/Register_File_RF/Decoder_5_to_32.vhd 2018/02/28.19:07:12 O.87xd
+FL C:/Users/Lenovo/Desktop/lab1/Register_File_RF/MUX_2_to_1.vhd 2018/02/28.19:52:10 O.87xd
+FL C:/Users/Lenovo/Desktop/lab1/Register_File_RF/MUX_32_to_1.vhd 2018/02/28.19:35:06 O.87xd
+FL C:/Users/Lenovo/Desktop/lab1/Register_File_RF/Register_32.vhd 2018/03/03.14:24:38 O.87xd
+FL C:/Users/Lenovo/Desktop/lab1/Register_File_RF/Register_File_RF.vhd 2018/03/03.14:47:01 O.87xd
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/ALU.vhd 2018/03/05.19:39:35 O.87xd
+EN work/ALU 1520779621 FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/ALU.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/ALU/Behavioral 1520779622 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/ALU.vhd EN work/ALU 1520779621 \
+      CP ALU_operation CP ALU_Outputs
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/ALUSTAGE.vhd 2018/03/11.16:46:50 O.87xd
+EN work/ALUSTAGE 1520779623 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/ALUSTAGE.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/ALUSTAGE/Behavioral 1520779624 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/ALUSTAGE.vhd \
+      EN work/ALUSTAGE 1520779623 CP MUX_pre_ALU CP ALU
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/ALU_operation.vhd 2018/03/05.17:45:09 O.87xd
+EN work/ALU_operation 1520779615 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/ALU_operation.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/ALU_operation/Behavioral 1520779616 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/ALU_operation.vhd \
+      EN work/ALU_operation 1520779615
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/ALU_Outputs.vhd 2018/03/05.19:26:26 O.87xd
+EN work/ALU_Outputs 1520779617 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/ALU_Outputs.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/ALU_Outputs/Behavioral 1520779618 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/ALU_Outputs.vhd \
+      EN work/ALU_Outputs 1520779617
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/Compare_Module.vhd 2018/03/05.16:50:26 O.87xd
+EN work/Compare_Module 1520615791 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/Compare_Module.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/Compare_Module/Behavioral 1520615792 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/Compare_Module.vhd \
+      EN work/Compare_Module 1520615791
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/DECODE.vhd 2018/03/09.19:16:22 O.87xd
+EN work/DECSTAGE 1520615805 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/DECODE.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/DECSTAGE/Behavioral 1520615806 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/DECODE.vhd \
+      EN work/DECSTAGE 1520615805 CP Immed_Converter CP MUX_RF_Instr \
+      CP MUX_reg_file CP Register_File_RF
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/Decoder_5_to_32.vhd 2018/02/28.19:07:12 O.87xd
+EN work/Decoder_5_to_32 1520615787 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/Decoder_5_to_32.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/Decoder_5_to_32/Behavioral 1520615788 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/Decoder_5_to_32.vhd \
+      EN work/Decoder_5_to_32 1520615787
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/IFSTAGE.vhd 2018/03/12.20:47:26 O.87xd
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/Immed_Converter.vhd 2018/03/09.18:42:11 O.87xd
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/Incrementor.vhd 2018/03/08.18:27:52 O.87xd
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/incrementorImmed.vhd 2018/03/08.18:47:38 O.87xd
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/MEMIF.vhd 2018/03/12.18:58:05 O.87xd
+EN work/MEMIF 1520873895 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/MEMIF.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/MEMIF/Behavioral 1520873896 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/MEMIF.vhd EN work/MEMIF 1520873895
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/MEMSTAGE.vhd 2018/03/12.18:53:04 O.87xd
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/muxPC.vhd 2018/03/12.20:21:16 O.87xd
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/MUX_2_to_1.vhd 2018/02/28.19:52:10 O.87xd
+EN work/MUX_2_to_1 1520615795 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/MUX_2_to_1.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/MUX_2_to_1/Behavioral 1520615796 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/MUX_2_to_1.vhd \
+      EN work/MUX_2_to_1 1520615795
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/MUX_32_to_1.vhd 2018/02/28.19:35:06 O.87xd
+EN work/MUX_32_to_1 1520615793 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/MUX_32_to_1.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/MUX_32_to_1/Behavioral 1520615794 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/MUX_32_to_1.vhd \
+      EN work/MUX_32_to_1 1520615793
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/MUX_pre_ALU.vhd 2018/03/11.16:37:11 O.87xd
+EN work/MUX_pre_ALU 1520779619 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/MUX_pre_ALU.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/MUX_pre_ALU/Behavioral 1520779620 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/MUX_pre_ALU.vhd \
+      EN work/MUX_pre_ALU 1520779619
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/MUX_reg_file.vhd 2018/03/09.18:54:09 O.87xd
+EN work/MUX_reg_file 1520615801 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/MUX_reg_file.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/MUX_reg_file/Behavioral 1520615802 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/MUX_reg_file.vhd \
+      EN work/MUX_reg_file 1520615801
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/MUX_RF_Instr.vhd 2018/03/09.18:59:07 O.87xd
+EN work/MUX_RF_Instr 1520615799 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/MUX_RF_Instr.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/MUX_RF_Instr/Behavioral 1520615800 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/MUX_RF_Instr.vhd \
+      EN work/MUX_RF_Instr 1520615799
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/PC_Register.vhd 2018/03/12.19:47:54 O.87xd
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/RAM.vhd 2018/03/08.17:54:31 O.87xd
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/Register_32.vhd 2018/03/03.14:24:38 O.87xd
+EN work/Register_32 1520615789 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/Register_32.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/Register_32/Behavioral 1520615790 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/Register_32.vhd \
+      EN work/Register_32 1520615789
+FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/Register_File_RF.vhd 2018/03/05.16:52:38 O.87xd
+EN work/Register_File_RF 1520615803 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/Register_File_RF.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877
+AR work/Register_File_RF/Behavioral 1520615804 \
+      FL C:/Users/Lenovo/Desktop/LAB2/Register_File_RF/Register_File_RF.vhd \
+      EN work/Register_File_RF 1520615803 CP Decoder_5_to_32 CP Register_32 \
+      CP Compare_Module CP MUX_32_to_1 CP MUX_2_to_1
+FL C:/Users/Lenovo/Desktop/zou/lab1/Register_File_RF/ALU.vhd 2018/03/05.19:39:35 O.87xd
+FL C:/Users/Lenovo/Desktop/zou/lab1/Register_File_RF/ALU_operation.vhd 2018/03/05.17:45:09 O.87xd
+FL C:/Users/Lenovo/Desktop/zou/lab1/Register_File_RF/ALU_Outputs.vhd 2018/03/05.19:26:26 O.87xd
+FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/IFSTAGE.vhd 2018/03/12.21:26:52 O.87xd
+EN work/IFSTAGE 1520882827 \
+      FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/IFSTAGE.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877
+AR work/IFSTAGE/Behavioral 1520882828 \
+      FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/IFSTAGE.vhd \
+      EN work/IFSTAGE 1520882827 CP Incrementor CP incrementorImmed CP muxPC \
+      CP PC_Register CP RAM
+FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/Immed_Converter.vhd 2018/03/13.21:01:29 O.87xd
+EN work/Immed_Converter 1520967694 \
+      FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/Immed_Converter.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/Immed_Converter/Behavioral 1520967695 \
+      FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/Immed_Converter.vhd \
+      EN work/Immed_Converter 1520967694
+FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/Incrementor.vhd 2018/03/13.14:08:05 O.87xd
+EN work/Incrementor 1520942952 \
+      FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/Incrementor.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/Incrementor/Behavioral 1520942953 \
+      FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/Incrementor.vhd \
+      EN work/Incrementor 1520942952
+FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/incrementorImmed.vhd 2018/03/12.21:24:03 O.87xd
+EN work/incrementorImmed 1520882819 \
+      FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/incrementorImmed.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/incrementorImmed/Behavioral 1520882820 \
+      FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/incrementorImmed.vhd \
+      EN work/incrementorImmed 1520882819
+FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/MEMSTAGE.vhd 2018/03/14.10:52:09 O.87xd
+EN work/MEMSTAGE 1521017534 \
+      FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/MEMSTAGE.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/MEMSTAGE/Behavioral 1521017535 \
+      FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/MEMSTAGE.vhd \
+      EN work/MEMSTAGE 1521017534 CP RAM
+FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/muxPC.vhd 2018/03/12.20:21:18 O.87xd
+EN work/muxPC 1520942979 \
+      FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/muxPC.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/muxPC/Behavioral 1520942980 \
+      FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/muxPC.vhd EN work/muxPC 1520942979
+FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/PC_Register.vhd 2018/03/13.14:16:51 O.87xd
+EN work/PC_Register 1520943416 \
+      FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/PC_Register.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875 PB std/TEXTIO 1325952871 \
+      PB ieee/STD_LOGIC_TEXTIO 1325952876
+AR work/PC_Register/Behavioral 1520943417 \
+      FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/PC_Register.vhd \
+      EN work/PC_Register 1520943416
+FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/RAM.vhd 2018/03/08.17:54:32 O.87xd
+EN work/RAM 1521017532 \
+      FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/RAM.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/STD_LOGIC_UNSIGNED 1325952875 \
+      PB std/TEXTIO 1325952871 PB ieee/STD_LOGIC_TEXTIO 1325952876
+AR work/RAM/syn 1521017533 \
+      FL C:/Users/user00000/Desktop/LAB2/Register_File_RF/RAM.vhd EN work/RAM 1521017532

@@ -1,0 +1,6 @@
+vhdl work "RAM.vhd"
+vhdl work "PC_Register.vhd"
+vhdl work "muxPC.vhd"
+vhdl work "incrementorImmed.vhd"
+vhdl work "Incrementor.vhd"
+vhdl work "IFSTAGE.vhd"

@@ -1,0 +1,7 @@
+vhdl isim_temp "RAM.vhd"
+vhdl isim_temp "PC_Register.vhd"
+vhdl isim_temp "muxPC.vhd"
+vhdl isim_temp "incrementorImmed.vhd"
+vhdl isim_temp "Incrementor.vhd"
+vhdl isim_temp "IFSTAGE.vhd"
+vhdl isim_temp "testIFstage.vhd"

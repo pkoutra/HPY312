@@ -1,0 +1,1 @@
+vhdtdtfi -prj Register_File_RF -o "C:/Users/user00000/Desktop/lab5org -fwd/mux4to1.vhi" -module mux4to1 -template C:/Xilinx/13.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work mux4to1.vhd 

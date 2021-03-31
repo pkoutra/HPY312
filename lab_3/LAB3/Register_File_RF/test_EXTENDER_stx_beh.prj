@@ -1,0 +1,2 @@
+vhdl isim_temp "Immed_Converter.vhd"
+vhdl isim_temp "test_EXTENDER.vhd"

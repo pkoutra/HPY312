@@ -1,0 +1,5 @@
+vhdl work "F:\LAB2\Register_File_RF\ALU_Outputs.vhd"
+vhdl work "F:\LAB2\Register_File_RF\ALU_operation.vhd"
+vhdl work "F:\LAB2\Register_File_RF\MUX_pre_ALU.vhd"
+vhdl work "F:\LAB2\Register_File_RF\ALU.vhd"
+vhdl work "F:\LAB2\Register_File_RF\ALUSTAGE.vhd"

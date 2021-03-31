@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/xst"
+elaborate
+-ifn ALU_operation.prj
+-ifmt mixed

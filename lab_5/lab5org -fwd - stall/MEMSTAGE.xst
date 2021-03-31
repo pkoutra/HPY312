@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/user00000/Desktop/lab5org/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/user00000/Desktop/lab5org/xst"
+elaborate
+-ifn MEMSTAGE.prj
+-ifmt mixed

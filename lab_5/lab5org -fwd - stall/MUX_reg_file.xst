@@ -1,0 +1,5 @@
+set -tmpdir "F:/LAB2/Register_File_RF/xst/projnav.tmp"
+set -xsthdpdir "F:/LAB2/Register_File_RF/xst"
+elaborate
+-ifn MUX_reg_file.prj
+-ifmt mixed

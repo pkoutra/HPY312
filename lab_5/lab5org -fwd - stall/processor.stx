@@ -1,0 +1,95 @@
+Release 13.4 - xst O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/user00000/Desktop/lab5org -fwd - stall/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/user00000/Desktop/lab5org -fwd - stall/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/ALU_operation.vhd" in Library work.
+Architecture behavioral of Entity alu_operation is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/ALU_Outputs.vhd" in Library work.
+Architecture behavioral of Entity alu_outputs is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/Decoder_5_to_32.vhd" in Library work.
+Architecture behavioral of Entity decoder_5_to_32 is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/Register_32.vhd" in Library work.
+Architecture behavioral of Entity register_32 is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/Compare_Module.vhd" in Library work.
+Architecture behavioral of Entity compare_module is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/MUX_32_to_1.vhd" in Library work.
+Architecture behavioral of Entity mux_32_to_1 is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/MUX_2_to_1.vhd" in Library work.
+Architecture behavioral of Entity mux_2_to_1 is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/mux2_to_1_proc.vhd" in Library work.
+Architecture behavioral of Entity mux2_to_1_proc is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/LSB_taker.vhd" in Library work.
+Architecture behavioral of Entity lsb_taker is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/MUX_pre_ALU.vhd" in Library work.
+Architecture behavioral of Entity mux_pre_alu is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/mux4to1.vhd" in Library work.
+Architecture behavioral of Entity mux4to1 is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/ALU.vhd" in Library work.
+Architecture behavioral of Entity alu is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/Immed_Converter.vhd" in Library work.
+Architecture behavioral of Entity immed_converter is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/MUX_RF_Instr.vhd" in Library work.
+Architecture behavioral of Entity mux_rf_instr is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/MUX_reg_file.vhd" in Library work.
+Architecture behavioral of Entity mux_reg_file is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/Register_File_RF.vhd" in Library work.
+Architecture behavioral of Entity register_file_rf is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/CONTROL_STAGE_NEW.vhd" in Library work.
+Architecture behavioral of Entity control_stage_new is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/PC_Register.vhd" in Library work.
+Architecture behavioral of Entity pc_register is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/Incrementor.vhd" in Library work.
+Architecture behavioral of Entity incrementor is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/incrementorImmed.vhd" in Library work.
+Architecture behavioral of Entity incrementorimmed is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/muxPC.vhd" in Library work.
+Architecture behavioral of Entity muxpc is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/IFSTAGE.vhd" in Library work.
+Architecture behavioral of Entity ifstage is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/RAM.vhd" in Library work.
+Architecture syn of Entity ram is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/DECODE.vhd" in Library work.
+Architecture behavioral of Entity decstage is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/PipelineRegister.vhd" in Library work.
+Architecture behavioral of Entity pipelineregister is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/ALUSTAGE.vhd" in Library work.
+Architecture behavioral of Entity alustage is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/MEMSTAGE.vhd" in Library work.
+Architecture behavioral of Entity memstage is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/PIPELINE_SMALL_REG.vhd" in Library work.
+Architecture behavioral of Entity pipeline_small_reg is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/FORWARD_UNIT.vhd" in Library work.
+Architecture behavioral of Entity forward_unit is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/STALL_MODULE.vhd" in Library work.
+Architecture behavioral of Entity stall_module is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org -fwd - stall/processor.vhd" in Library work.
+Entity <processor> compiled.
+Entity <processor> (Architecture <behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.02 secs
+ 
+--> 
+
+Total memory usage is 318376 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

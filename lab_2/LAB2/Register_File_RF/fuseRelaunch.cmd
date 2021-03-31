@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/user00000/Desktop/LAB2/Register_File_RF/testMEMSTAGE_isim_beh.exe" -prj "C:/Users/user00000/Desktop/LAB2/Register_File_RF/testMEMSTAGE_beh.prj" "work.testMEMSTAGE" 

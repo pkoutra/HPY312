@@ -1,0 +1,1 @@
+vhdtdtfi -prj Register_File_RF -o C:/Users/user00000/Desktop/LAB2/Register_File_RF/Incrementor.vhi -module Incrementor -template C:/Xilinx/13.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Incrementor.vhd 

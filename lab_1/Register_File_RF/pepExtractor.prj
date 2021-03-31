@@ -1,0 +1,3 @@
+work	"ALU.vhd"
+work	"ALU_Outputs.vhd"
+work	"ALU_operation.vhd"

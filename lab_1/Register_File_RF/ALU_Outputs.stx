@@ -1,0 +1,37 @@
+Release 13.4 - xst O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/user00000/Desktop/LAB1_ORGANWSH/Register_File_RF/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.50 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/user00000/Desktop/LAB1_ORGANWSH/Register_File_RF/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.53 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/ALU_Outputs is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/zou/lab1/Register_File_RF/ALU_Outputs.vhd", and is now defined in "C:/Users/user00000/Desktop/LAB1_ORGANWSH/Register_File_RF/ALU_Outputs.vhd".
+WARNING:HDLParsers:3607 - Unit work/ALU_Outputs/Behavioral is now defined in a different file.  It was defined in "C:/Users/Lenovo/Desktop/zou/lab1/Register_File_RF/ALU_Outputs.vhd", and is now defined in "C:/Users/user00000/Desktop/LAB1_ORGANWSH/Register_File_RF/ALU_Outputs.vhd".
+Compiling vhdl file "C:/Users/user00000/Desktop/LAB1_ORGANWSH/Register_File_RF/ALU_Outputs.vhd" in Library work.
+Entity <alu_outputs> compiled.
+Entity <alu_outputs> (Architecture <behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.09 secs
+ 
+--> 
+
+Total memory usage is 263900 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

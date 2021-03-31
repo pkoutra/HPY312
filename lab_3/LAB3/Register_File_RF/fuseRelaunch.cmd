@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/testProcessor_isim_beh.exe" -prj "C:/Users/Lenovo/Desktop/LAB3/Register_File_RF/testProcessor_beh.prj" "work.testProcessor" 

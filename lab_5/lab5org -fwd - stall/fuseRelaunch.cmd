@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/user00000/Desktop/lab5org -fwd - stall/lab5_isim_beh.exe" -prj "C:/Users/user00000/Desktop/lab5org -fwd - stall/lab5_beh.prj" "work.lab5" 

@@ -1,0 +1,55 @@
+Release 13.4 - xst O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/user00000/Desktop/lab5org/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/user00000/Desktop/lab5org/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org/Decoder_5_to_32.vhd" in Library work.
+Architecture behavioral of Entity decoder_5_to_32 is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org/Register_32.vhd" in Library work.
+Architecture behavioral of Entity register_32 is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org/Compare_Module.vhd" in Library work.
+Architecture behavioral of Entity compare_module is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org/MUX_32_to_1.vhd" in Library work.
+Architecture behavioral of Entity mux_32_to_1 is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org/MUX_2_to_1.vhd" in Library work.
+Architecture behavioral of Entity mux_2_to_1 is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org/Immed_Converter.vhd" in Library work.
+Architecture behavioral of Entity immed_converter is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org/MUX_RF_Instr.vhd" in Library work.
+Architecture behavioral of Entity mux_rf_instr is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org/MUX_reg_file.vhd" in Library work.
+Architecture behavioral of Entity mux_reg_file is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org/Register_File_RF.vhd" in Library work.
+Architecture behavioral of Entity register_file_rf is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org/CONTROL_STAGE_NEW.vhd" in Library work.
+Architecture behavioral of Entity control_stage_new is up to date.
+Compiling vhdl file "C:/Users/user00000/Desktop/lab5org/DECODE.vhd" in Library work.
+Entity <decstage> compiled.
+Entity <decstage> (Architecture <behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.69 secs
+ 
+--> 
+
+Total memory usage is 318360 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
